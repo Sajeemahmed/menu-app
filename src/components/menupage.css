@@ -1,0 +1,31 @@
+/* src/menupage.css */
+.menu-page {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .menu-page h1 {
+    color: #333;
+    margin-bottom: 20px;
+    font-size: 24px;
+  }
+  
+  .image-container {
+    display: flex;
+    flex-direction: column; /* Stack images vertically */
+    align-items: center; /* Center images horizontally */
+    gap: 20px; /* Space between images */
+  }
+  
+  .image-container img {
+    width: 100%; /* Full width of the container */
+    max-width: 300px; /* Limit maximum width */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .image-container img:hover {
+    transform: scale(1.05);
+  }
