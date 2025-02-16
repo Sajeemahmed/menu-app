@@ -1,13 +1,19 @@
 {
   "name": "menu-app",
   "private": true,
+<<<<<<< HEAD
   "homepage": "https://github.com/Sajeemahmed/menu-app.git",
+=======
+>>>>>>> 7a0b5e6d406940eee8047da91a01f73862911dc1
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
+<<<<<<< HEAD
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist",
+=======
+>>>>>>> 7a0b5e6d406940eee8047da91a01f73862911dc1
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview"
@@ -25,7 +31,10 @@
     "eslint-plugin-react": "^7.37.4",
     "eslint-plugin-react-hooks": "^5.0.0",
     "eslint-plugin-react-refresh": "^0.4.18",
+<<<<<<< HEAD
     "gh-pages": "^6.3.0",
+=======
+>>>>>>> 7a0b5e6d406940eee8047da91a01f73862911dc1
     "globals": "^15.14.0",
     "vite": "^6.1.0"
   }
